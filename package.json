@@ -1,0 +1,22 @@
+{
+  "name": "simple-file-management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "cd backend && nodemon server.js",
+    "frontend": "cd frontend && npm run dev",
+    "start": "concurrently \"npm run backend\" \"npm run frontend\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaichong02/Simple-File-Management.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaichong02/Simple-File-Management/issues"
+  },
+  "homepage": "https://github.com/kaichong02/Simple-File-Management#readme"
+}
